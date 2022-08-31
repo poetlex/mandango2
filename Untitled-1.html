@@ -127,16 +127,19 @@ function findThreeSeatsWhile () {
 } */
 // Choose seat by click
 function clickSeat1() {
-    if (seats[0]){
+    if (seats[0][0]){
             var accept = confirm("You choose seat № "+1+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 0).src = "seat_select.png";
             document.getElementById("seat" + 0).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
+
 function clickSeat2() {
-    if (seats[1]){
+    if (seats[0][1]){
             var accept = confirm("You choose seat № "+2+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 1).src = "seat_select.png";
@@ -147,82 +150,112 @@ function clickSeat2() {
             }
 }
 function clickSeat3() {
-    if (seats[2]){
+    if (seats[0][2]){
             var accept = confirm("You choose seat № "+3+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 2).src = "seat_select.png";
             document.getElementById("seat" + 2).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
-function clickSeat4() {
-    if (seats[3]){
+          }
+
+          function clickSeat4() {
+    if (seats[0][3]){
             var accept = confirm("You choose seat № "+4+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 3).src = "seat_select.png";
             document.getElementById("seat" + 3).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
-function clickSeat5() {
-    if (seats[5]){
+          }
+
+          function clickSeat5() {
+    if (seats[0][4]){
             var accept = confirm("You choose seat № "+5+" . Would you like to book it?");
+            if (accept){
+            document.getElementById("seat" + 4).src = "seat_select.png";
+            document.getElementById("seat" + 4).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
+            }
+          }
+
+          function clickSeat6() {
+    if (seats[0][5]){
+            var accept = confirm("You choose seat № "+6+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 5).src = "seat_select.png";
             document.getElementById("seat" + 5).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
 
-function clickSeat6() {
-    if (seats[6]){
-            var accept = confirm("You choose seat № "+6+" . Would you like to book it?");
+          function clickSeat7() {
+    if (seats[0][6]){
+            var accept = confirm("You choose seat № "+7+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 6).src = "seat_select.png";
             document.getElementById("seat" + 6).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
 
-function clickSeat7() {
-    if (seats[7]){
-            var accept = confirm("You choose seat № "+7+" . Would you like to book it?");
+          function clickSeat8() {
+    if (seats[0][7]){
+            var accept = confirm("You choose seat № "+8+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 7).src = "seat_select.png";
             document.getElementById("seat" + 7).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
 
-function clickSeat8() {
-    if (seats[8]){
-            var accept = confirm("You choose seat № "+8+" . Would you like to book it?");
+          function clickSeat9() {
+    if (seats[0][8]){
+            var accept = confirm("You choose seat № "+9+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 8).src = "seat_select.png";
             document.getElementById("seat" + 8).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
 
-function clickSeat9() {
-    if (seats[9]){
-            var accept = confirm("You choose seat № "+9+" . Would you like to book it?");
+          function clickSeat10() {
+    if (seats[1][0]){
+            var accept = confirm("You choose seat № "+10+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 9).src = "seat_select.png";
             document.getElementById("seat" + 9).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
 
-function clickSeat10() {
-    if (seats[10]){
-            var accept = confirm("You choose seat № "+10+" . Would you like to book it?");
+          function clickSeat11() {
+    if (seats[1][1]){
+            var accept = confirm("You choose seat № "+11+" . Would you like to book it?");
             if (accept){
             document.getElementById("seat" + 10).src = "seat_select.png";
             document.getElementById("seat" + 10).alt = "This seat are selected";
+            } 
+    } else {
+                alert("I'm sorry but these seat are booking choose another else!");
             }
-    }
-}
+          }
 </script>
       <body onload="initSeats();" style = "background-color: white;">
     <div style="margin-top:75px; text-align:center">
